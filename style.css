@@ -1,1 +1,143 @@
 /* Code by Mr. Tooley */
+
+/* Import font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* CSS Reset */
+/* removes extra whitespace around elements */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the Body */
+body {
+    /* Set the size of the element */
+    /* 100 viewport width is 100% of the width of the screen viewing it */
+    width: 100vw;
+    /* Height will fit content automatically */
+    height: auto;
+
+    /* Set font for website */
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* Navigation Styles */
+nav {
+    /* Set the size of element */
+    /* 100% of parent element */
+    width: 100%;
+    /* 64 pixels of space */
+    height: 64px;
+
+
+    /* Change text color */
+    color: #efefef;
+
+    /* Change background color */
+    background-color: #222222;
+
+
+    /* Create flexbox container */
+    display: flex;
+
+    /* center on cross axis */
+    align-items: center;
+
+    /* center on main axis */
+    justify-content: center;
+}
+
+/* select the "page-title" class */
+.page-title {
+    /* Set the size of element */
+    width: 160px;
+    height: 40px;
+
+    /* Change background color */
+    background-color: #444444;
+
+    /* Make corners rounded */
+    border-radius: 8px;
+
+    /* Center child elements */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Prevents users from selecting the text */
+    user-select: none;
+}
+
+/* select the h1 in the page-title */
+.page-title h1 {
+    /* set a linear gradient */
+    background: linear-gradient(to right, #3399ea, #11dddd);
+
+    /* link the linear gradient to behind the text */
+    background-clip: text;
+
+    /* set text to transparent to see gradient */
+    -webkit-text-fill-color: transparent;
+
+    font-size: 32px;
+}
+
+
+/* ||---------------------|| */
+/* V WRITE YOUR CODE HERE V*/
+/* ------------------- */
+
+/* Main Styles */
+main {
+    width: 100%;
+
+    /* I calculated 100% of the screen height minus the 64 pixels of the navigation menu */
+    height: calc(100vh - 64px);
+
+    /* change background color */
+
+    /* make a flexbox and center items */
+
+
+    justify-content: space-evenly;
+}
+
+/* Card Styles */
+
+
+
+/* Style card-1 */
+
+
+
+/* Style card-2 */
+
+
+
+/* Style card-3 */
+
+
+
+
+/* Style card-title */
+
+
+
+/* Style card-button */
+
+
+
+/* Style card-info */
+
+
+
+/* If needed, style card-info paragraph */
+
+
+
+/* Style hidden */
+.hidden {
+    display: none;
+}
