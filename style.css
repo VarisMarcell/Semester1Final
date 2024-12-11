@@ -105,7 +105,17 @@ main {
 }
 
 /* Card Styles */
+.card {
+    width: 25vw;
+    height: auto;
+    min-height: 200px;
+    /* set the background color */
 
+    /* center your card content and make it horizontal */
+
+
+
+}
 
 
 /* Style card-1 */
